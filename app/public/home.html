@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Friend Finder</title>
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+  <link href="./style.css">
+
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="display-4 font-weight-bold"><i class="fab fa-pied-piper-hat"></i><span> Fictional Friend Finder </span>
+      </h1>
+      <hr>
+      <h3>Answer a few basic questions,</h3>
+      <br>
+      <h3>Then find your most compatible fictional friend!</h3>
+      <br>
+      <a href="/api/survey"><button class="btn btn-primary btn-lg"><span class="fa fa-credit-card"></span> Go to
+          Survey</button></a>
+      <hr>
+      <p><a href="/api/friendslist" class="fL" target="_blank">API Friends List</a> |
+        <a href="https://github.com/BlakeMarter/Friend-Finder" target="_blank">GitHub Repo</a></p>
+    </div>
+
+
+    <div class="container">
+    </div>
+    <!-- ---------------------------------------------------------------------------------------------------------- -->
+    <!-- <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+  $(".fL").on("click", function (event){
+    $.get(path.join(__dirname, "/api/friendslist", function (req, res){
+      return res.json(friends)
+    }))
+  })
+      </script> -->
+    <!-- ---------------------------------------------------------------------------------------------------------- -->
+</body>
+
+</html>

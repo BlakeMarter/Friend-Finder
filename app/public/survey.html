@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>FF Survey</title>
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link href="./style.css">
+
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="display-4 font-weight-bold"><i class="fab fa-pied-piper-hat"></i><span> Fictional Friend Finder
+          (Survey) </span></h1>
+      <hr>
+      <p><a href="/api/friendslist" target="_blank">API friends List</a> |
+        <a href="https://github.com/BlakeMarter/Friend-Finder" target="_blank">GitHub Repo</a></p>
+    </div>
+    <form>
+      <div class="form-group">
+        <input id="name" type="text" class="form-control q" required placeholder="Name (Required)">
+      </div>
+      <div class="form-group">
+        <input id="photo" type="text" class="form-control q" required placeholder="Link to Profile Photo (Required)">
+      </div>
+      <div class="form-group">
+        <label for="q1">I am fearless.</label>
+        <select class="form-control q" id="q1" required>
+          <option value="empty"></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="q2">I get along easily with others.</label>
+        <select class="form-control q" id="q2" required>
+          <option value="empty"></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="q3">I am a very accepting being.</label>
+        <select class="form-control q" id="q3" required>
+          <option value="empty"></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="q4">I protect my friends at all costs.</label>
+        <select class="form-control q" id="q4" required>
+          <option value="empty"></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="q5">I do what needs to get done even if I don't want to.</label>
+        <select class="form-control q" id="q5" required>
+          <option value="empty"></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="q6">I love long journeys.</label>
+        <select class="form-control q" id="q6" required>
+          <option value="empty"></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="q7">I love exploring new things.</label>
+        <select class="form-control q" id="q7" required>
+          <option value="empty"></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="q8">I am someone you can count on in a pinch.</label>
+        <select class="form-control q" id="q8" required>
+          <option value="empty"></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="q9">I am cruel.</label>
+        <select class="form-control q" id="q9" required>
+          <option value="empty"></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="q10">I remain calm in stressful situations.</label>
+        <select class="form-control q" id="q10" required>
+          <option value="empty"></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+      <div class="text-center">
+        <button id="submitBtn" type="submit" class="btn btn-success btn-lg">Submit</button>
+      </div>
+    </form>
+  </div>
+  <div id="questCompMod" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h3 class="modal-title">Your Quest Companion</h1>
+        </div>
+        <div class="modal-body">
+          <h2 id="questComp"></h2>
+          <img id="questCompImg" src="#">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+    // q: What does this code do?
+    $("#submitBtn").on("click", function (event) {
+      event.preventDefault();
+      var notVal = [];
+
+      if ($(".q").val() === "empty") {
+        $(".q").addClass(".is-invalid");
+      } else {
+        $(".q").removeClass(".is-invalid")
+        $(".q").addClass(".is-valid")
+      }
+
+      if ($(".q, .is-valid").val()) {
+        var newFriend = {
+          name: $("#name").val().trim().willValidate,
+          photo: $("#photo").val().trim(),
+          scores: [
+            $("#q1").val().trim(),
+            $("#q2").val().trim(),
+            $("#q3").val().trim(),
+            $("#q4").val().trim(),
+            $("#q5").val().trim(),
+            $("#q6").val().trim(),
+            $("#q7").val().trim(),
+            $("#q8").val().trim(),
+            $("#q9").val().trim(),
+            $("#q10").val().trim()
+          ]
+        };
+
+        // q: What does this code do??
+        $.post("/api/friendslist", newFriend, function (data) {
+          friends.push(newFriend);
+          res.json(newFriend);
+          $("#questComp").text(data.name);
+          $("#questCompImg").attr("src", data.photo);
+          $("#questCompMod").modal("toggle");
+        })
+      } else {
+        alert("In order for FFF to match you with you're perfect quest companion, all fields must be filled. Please fill out the entire form")
+      }
+    });
+  </script>
+</body>
+
+</html>
