@@ -140,9 +140,15 @@
           <option value="5">5 (Strongly Agree)</option>
         </select>
       </div>
+      <br>
       <div class="text-center">
         <button id="submitBtn" type="submit" class="btn btn-success btn-lg">Submit</button>
       </div>
+      <br>
+      <br>
+      <br>
+
+
     </form>
   </div>
   <div id="questCompMod" class="modal fade" role="dialog">
@@ -181,7 +187,7 @@
 
       if ($(".q, .is-valid").val()) {
         var newFriend = {
-          name: $("#name").val().trim().willValidate,
+          name: $("#name").val().trim(),
           photo: $("#photo").val().trim(),
           scores: [
             $("#q1").val().trim(),
@@ -198,9 +204,7 @@
         };
 
         // q: What does this code do??
-        $.post("/api/friendslist", newFriend, function (data) {
-          friends.push(newFriend);
-          res.json(newFriend);
+        $.post("/api/friends", newFriend, function (data) {
           $("#questComp").text(data.name);
           $("#questCompImg").attr("src", data.photo);
           $("#questCompMod").modal("toggle");
