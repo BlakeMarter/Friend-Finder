@@ -3,7 +3,7 @@ var friends = require("../data/friends.js");
 
 
 module.exports = function (app) {
-  app.get('/api/friends', function (req, res) {
+  app.get("/api/friends", function (req, res) {
     res.json(friends);
   });
 
@@ -14,8 +14,8 @@ module.exports = function (app) {
 
     var userScores = user.scores;
 
-    var friendMatch = '';
-    var friendImage = '';
+    var compMatch = "";
+    var compImage = "";
     var totalDifference = 12000;
 
 
@@ -27,8 +27,8 @@ module.exports = function (app) {
 
       if (difference < totalDifference) {
         totalDifference = difference;
-        friendMatch = friends[i].name;
-        friendImage = friends[i].photo;
+        compMatch = friends[i].name;
+        compImage = friends[i].photo;
       };
       
     }
@@ -36,7 +36,7 @@ module.exports = function (app) {
     friends.push(user);
 
 
-    res.json({status: 'OK', name: friendMatch, photo: friendImage});
+    res.json({status: 'OK', name: compMatch, photo: compImage});
   });
 
 };

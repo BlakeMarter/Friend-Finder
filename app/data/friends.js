@@ -5,8 +5,8 @@ var friends =
       "photo": "https://www.telegraph.co.uk/content/dam/on-demand/2017/12/18/TELEMMGLPICT000044351466_trans_NvBQzQNjv4BqM37qcIWR9CtrqmiMdQVx7BxFuYGb_LItWw_h_V5NnKk.jpeg?imwidth=400",
       "scores": [
         5,
-        1,
         4,
+        5,
         4,
         5,
         1,

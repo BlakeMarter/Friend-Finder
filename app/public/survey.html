@@ -18,139 +18,160 @@
 <body>
 
   <div class="container">
-    <div class="jumbotron">
-      <h1 class="display-4 font-weight-bold"><i class="fab fa-pied-piper-hat"></i><span> Fictional Friend Finder
-          (Survey) </span></h1>
+    <div class="jumbotron pb-3 text-center">
+      <h1 class="display-4 font-weight-bold"><i class="fab fa-pied-piper-hat"></i><span> Lets find your quest companion!
+        </span></h1>
       <hr>
-      <p><a href="/api/friends" target="_blank">API friends List</a> |
-        <a href="https://github.com/BlakeMarter/Friend-Finder" target="_blank">GitHub Repo</a></p>
+      <br>
+      <p><a href="/" class="alert-secondary alert-link">Home</a> | <a href="/api/friends" target="_blank"
+          class="alert-secondary alert-link">API friends List</a> |
+        <a href="https://github.com/BlakeMarter/Friend-Finder" target="_blank" class="alert-secondary alert-link">GitHub
+          Repo</a></p>
     </div>
     <form class="was-validated">
-      <div class="form-group">
-        <input id="name" type="text" class="form-control" required placeholder="Name (Required)">
+      <div class="row">
+        <div class="form-group col-sm-6">
+          <label for="name"><strong>Name</strong></label>
+          <input id="name" type="text" class="form-control" required placeholder="Insert Name (Required)">
+        </div>
+        <div class="form-group col-sm-6">
+          <label for="photo"><strong>Photo Link</strong></label>
+          <input id="photo" type="text" class="form-control" required
+            placeholder="Insert link to photo here (Required)">
+        </div>
       </div>
+      <hr>
       <div class="form-group">
-        <input id="photo" type="text" class="form-control" required placeholder="Link to Profile Photo (Required)">
-      </div>
-      <div class="form-group">
-        <label for="q1">I am fearless.</label>
-        <select class="custom-select" id="q1" required>
-          <option value="" disabled selected>Open this select menu</option>
+        <label for="q1"><strong>Question 1:</strong> I am fearless.</label>
+        <br>
+        <select class="custom-select w-25" id="q1" required>
+          <option value="" disabled selected>Select 1 - 5</option>
           <option value="1">1 (Strongly Disagree)</option>
           <option value="2">2</option>
           <option value="3">3</option>
           <option value="4">4</option>
           <option value="5">5 (Strongly Agree)</option>
         </select>
-        <div class="invalid-feedback">You Must Make A Choice!</div>
+        <div class="invalid-feedback">Please select a number.</div>
       </div>
       <div class="form-group">
-        <label for="q2">I get along easily with others.</label>
-        <select class="custom-select" id="q2" required>
-          <option value="" disabled selected>Open this select menu</option>
+        <label for="q2"><strong>Question 2:</strong> I get along easily with others.</label>
+        <br>
+        <select class="custom-select w-25" id="q2" required>
+          <option value="" disabled selected>Select 1 - 5</option>
           <option value="1">1 (Strongly Disagree)</option>
           <option value="2">2</option>
           <option value="3">3</option>
           <option value="4">4</option>
           <option value="5">5 (Strongly Agree)</option>
         </select>
-        <div class="invalid-feedback">You Must Make A Choice!</div>
+        <div class="invalid-feedback">Please select a number.</div>
       </div>
       <div class="form-group">
-        <label for="q3">I am a very accepting being.</label>
-        <select class="custom-select" id="q3" required>
-          <option value="" disabled selected>Open this select menu</option>
+        <label for="q3"><strong>Question 3:</strong> I am a very accepting being.</label>
+        <br>
+        <select class="custom-select w-25" id="q3" required>
+          <option value="" disabled selected>Select 1 - 5</option>
           <option value="1">1 (Strongly Disagree)</option>
           <option value="2">2</option>
           <option value="3">3</option>
           <option value="4">4</option>
           <option value="5">5 (Strongly Agree)</option>
         </select>
-        <div class="invalid-feedback">You Must Make A Choice!</div>
+        <div class="invalid-feedback">Please select a number.</div>
       </div>
       <div class="form-group">
-        <label for="q4">I protect my friends at all costs.</label>
-        <select class="custom-select" id="q4" required>
-          <option value="" disabled selected>Open this select menu</option>
+        <label for="q4"><strong>Question 4:</strong> I protect my friends at all costs.</label>
+        <br>
+        <select class="custom-select w-25" id="q4" required>
+          <option value="" disabled selected>Select 1 - 5</option>
           <option value="1">1 (Strongly Disagree)</option>
           <option value="2">2</option>
           <option value="3">3</option>
           <option value="4">4</option>
           <option value="5">5 (Strongly Agree)</option>
         </select>
-        <div class="invalid-feedback">You Must Make A Choice!</div>
+        <div class="invalid-feedback">Please select a number.</div>
       </div>
       <div class="form-group">
-        <label for="q5">I do what needs to get done even if I don't want to.</label>
-        <select class="custom-select" id="q5" required>
-          <option value="" disabled selected>Open this select menu</option>
+        <label for="q5"><strong>Question 5:</strong> I do what needs to get done even if I don't want
+          to.</label>
+        <br>
+        <select class="custom-select w-25 q" id="q5" required>
+          <option value="" disabled selected>Select 1 - 5</option>
           <option value="1">1 (Strongly Disagree)</option>
           <option value="2">2</option>
           <option value="3">3</option>
           <option value="4">4</option>
           <option value="5">5 (Strongly Agree)</option>
         </select>
-        <div class="invalid-feedback">You Must Make A Choice!</div>
+        <div class="invalid-feedback">Please select a number.</div>
       </div>
       <div class="form-group">
-        <label for="q6">I love long journeys.</label>
-        <select class="custom-select" id="q6" required>
-          <option value="" disabled selected>Open this select menu</option>
+        <label for="q6"><strong>Question 6:</strong> I love long journeys.</label>
+        <br>
+        <select class="custom-select w-25" id="q6" required>
+          <option value="" disabled selected>Select 1 - 5</option>
           <option value="1">1 (Strongly Disagree)</option>
           <option value="2">2</option>
           <option value="3">3</option>
           <option value="4">4</option>
           <option value="5">5 (Strongly Agree)</option>
         </select>
-        <div class="invalid-feedback">You Must Make A Choice!</div>
+        <div class="invalid-feedback">Please select a number.</div>
       </div>
       <div class="form-group">
-        <label for="q7">I love exploring new things.</label>
-        <select class="custom-select" id="q7" required>
-          <option value="" disabled selected>Open this select menu</option>
+        <label for="q7"><strong>Question 7:</strong> I am greedy.</label>
+        <br>
+        <select class="custom-select w-25 q" id="q7" required>
+          <option value="" disabled selected>Select 1 - 5</option>
           <option value="1">1 (Strongly Disagree)</option>
           <option value="2">2</option>
           <option value="3">3</option>
           <option value="4">4</option>
           <option value="5">5 (Strongly Agree)</option>
         </select>
-        <div class="invalid-feedback">You Must Make A Choice!</div>
+        <div class="invalid-feedback">Please select a number.</div>
       </div>
       <div class="form-group">
-        <label for="q8">I am someone you can count on in a pinch.</label>
-        <select class="custom-select" id="q8" required>
-          <option value="" disabled selected>Open this select menu</option>
+        <label for="q8"><strong>Question 8:</strong> I am someone you can count on in a
+          pinch.</label>
+        <br>
+        <select class="custom-select w-25 q" id="q8" required>
+          <option value="" disabled selected>Select 1 - 5</option>
           <option value="1">1 (Strongly Disagree)</option>
           <option value="2">2</option>
           <option value="3">3</option>
           <option value="4">4</option>
           <option value="5">5 (Strongly Agree)</option>
         </select>
-        <div class="invalid-feedback">You Must Make A Choice!</div>
+        <div class="invalid-feedback">Please select a number.</div>
       </div>
       <div class="form-group">
-        <label for="q9">I am cruel.</label>
-        <select class="custom-select" id="q9" required>
-          <option value="" disabled selected>Open this select menu</option>
+        <label for="q9"><strong>Question 9:</strong> I am cruel.</label>
+        <br>
+        <select class="custom-select w-25 q" id="q9" required>
+          <option value="" disabled selected>Select 1 - 5</option>
           <option value="1">1 (Strongly Disagree)</option>
           <option value="2">2</option>
           <option value="3">3</option>
           <option value="4">4</option>
           <option value="5">5 (Strongly Agree)</option>
         </select>
-        <div class="invalid-feedback">You Must Make A Choice!</div>
+        <div class="invalid-feedback">Please select a number.</div>
       </div>
       <div class="form-group">
-        <label for="q10">I remain calm in stressful situations.</label>
-        <select class="custom-select" id="q10" required>
-          <option value="" disabled selected>Open this select menu</option>
+        <label for="q10"><strong>Question 10:</strong> I remain calm in stressful situations.</label>
+        <br>
+        <select class="custom-select w-25 q" id="q10" required>
+          <option value="" disabled selected>Select 1 - 5</option>
           <option value="1">1 (Strongly Disagree)</option>
           <option value="2">2</option>
           <option value="3">3</option>
           <option value="4">4</option>
           <option value="5">5 (Strongly Agree)</option>
         </select>
-        <div class="invalid-feedback">You Must Make A Choice!</div>
+        <div class="invalid-feedback">Please select a number.</div>
       </div>
       <br>
       <div class="text-center">
@@ -167,7 +188,7 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
           <h3 class="modal-title">Your Quest Companion</h1>
         </div>
         <div class="modal-body">
@@ -185,26 +206,50 @@
   <script type="text/javascript">
     // q: What does this code do?
     $(document).ready(function () {
-      //$('#bestFriendModal').modal('toggle');
+      //$("#bestFriendModal").modal("toggle");
       //ON CLICK EVENT HANDLER FOR THE SUBMIT BUTTON
-      $('#submitBtn').click(function (event) {
+
+
+
+      $("#submitBtn").click(function (event) {
         event.preventDefault();
+
+        // (function () {
+        //   'use strict';
+        //   window.addEventListener('load', function () {
+        //     // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        //     var forms = document.getElementsByClassName('needs-validation');
+        //     // Loop over them and prevent submission
+        //     var validation = Array.prototype.filter.call(forms, function (form) {
+        //       form.addEventListener('submitBtn', function (event) {
+        //         if (form.checkValidity() === false) {
+        //           event.preventDefault();
+        //           event.stopPropagation();
+        //         }
+        //         form.classList.add('was-validated');
+        //       }, false);
+        //     });
+        //   }, false);
+        // })();
+
+
         // GET USER INPUTS
+
         var newFriend =
         {
-          name: $('#name').val().trim(),
-          photo: $('#photo').val().trim(),
+          name: $("#name").val().trim(),
+          photo: $("#photo").val().trim(),
           scores: [
-            $('#q1').val().trim(),
-            $('#q2').val().trim(),
-            $('#q3').val().trim(),
-            $('#q4').val().trim(),
-            $('#q5').val().trim(),
-            $('#q6').val().trim(),
-            $('#q7').val().trim(),
-            $('#q8').val().trim(),
-            $('#q9').val().trim(),
-            $('#q10').val().trim()
+            $("#q1").val().trim(),
+            $("#q2").val().trim(),
+            $("#q3").val().trim(),
+            $("#q4").val().trim(),
+            $("#q5").val().trim(),
+            $("#q6").val().trim(),
+            $("#q7").val().trim(),
+            $("#q8").val().trim(),
+            $("#q9").val().trim(),
+            $("#q10").val().trim()
           ]
         };
 
@@ -214,21 +259,22 @@
             $("#questComp").text(data.name);
             $("#questCompImg").attr("src", data.photo);
             $("#questCompMod").modal("toggle");
-            $('#q1').val("");
-            $('#q2').val("");
-            $('#q3').val("");
-            $('#q4').val("");
-            $('#q5').val("");
-            $('#q6').val("");
-            $('#q7').val("");
-            $('#q8').val("");
-            $('#q9').val("");
-            $('#q10').val("");
+            $("#q1").val("");
+            $("#q2").val("");
+            $("#q3").val("");
+            $("#q4").val("");
+            $("#q5").val("");
+            $("#q6").val("");
+            $("#q7").val("");
+            $("#q8").val("");
+            $("#q9").val("");
+            $("#q10").val("");
           })
-        });
-            $('#questCompMod').on('hidden.bs.modal', function () {
-                 window.location.href = '/';
-             });
+
+      });
+      // $("#questCompMod").on("hidden.bs.modal", function () {
+      //   window.location.href = "/";
+      // });
     });
   </script>
 </body>
