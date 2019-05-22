@@ -20,26 +20,26 @@ var friends =
       "name": "Raistlin Majere",
       "photo": "https://dragonlancereadingorder.com/images/characters/raistlin_majere.jpg",
       "scores": [
-        5,
-        1,
-        4,
-        4,
-        5,
         1,
         2,
-        5,
+        3,
         4,
-        1
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
       ]
     },
     {
       "name": "One Punch Man",
-      "photo": "https://i.pinimg.com/474x/93/c8/85/93c885c633efb9890ae2598d5f08d570.jpg?imwidth=200",
+      "photo": "https://i.pinimg.com/474x/93/c8/85/93c885c633efb9890ae2598d5f08d570.jpg",
       "scores": [
         5,
-        1,
-        4,
-        4,
+        5,
+        5,
+        5,
         5,
         1,
         2,
