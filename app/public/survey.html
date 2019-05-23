@@ -203,6 +203,26 @@
   </div>
   </div>
 
+  <script>
+    (function () {
+      'use strict';
+      window.addEventListener('load', function () {
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.getElementsByClassName('needs-validation');
+        // Loop over them and prevent submission
+        var validation = Array.prototype.filter.call(forms, function (form) {
+          form.addEventListener('submitBtn', function (event) {
+            if (form.checkValidity() === false) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+          }, false);
+        });
+      }, false);
+    })();
+
+  </script>
   <script type="text/javascript">
     // q: What does this code do?
     $(document).ready(function () {
@@ -213,26 +233,6 @@
 
       $("#submitBtn").click(function (event) {
         event.preventDefault();
-
-        // (function () {
-        //   'use strict';
-        //   window.addEventListener('load', function () {
-        //     // Fetch all the forms we want to apply custom Bootstrap validation styles to
-        //     var forms = document.getElementsByClassName('needs-validation');
-        //     // Loop over them and prevent submission
-        //     var validation = Array.prototype.filter.call(forms, function (form) {
-        //       form.addEventListener('submitBtn', function (event) {
-        //         if (form.checkValidity() === false) {
-        //           event.preventDefault();
-        //           event.stopPropagation();
-        //         }
-        //         form.classList.add('was-validated');
-        //       }, false);
-        //     });
-        //   }, false);
-        // })();
-
-
         // GET USER INPUTS
 
         var newFriend =
@@ -259,6 +259,8 @@
             $("#questComp").text(data.name);
             $("#questCompImg").attr("src", data.photo);
             $("#questCompMod").modal("toggle");
+            $("#name").val("");
+            $("#photo").val("");
             $("#q1").val("");
             $("#q2").val("");
             $("#q3").val("");

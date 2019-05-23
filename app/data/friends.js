@@ -9,26 +9,26 @@ var friends =
         5,
         4,
         5,
-        1,
+        5,
         2,
         5,
-        4,
-        1
+        1,
+        4
       ]
     },
     {
       "name": "Raistlin Majere",
       "photo": "https://dragonlancereadingorder.com/images/characters/raistlin_majere.jpg",
       "scores": [
+        5,
+        1,
         1,
         2,
-        3,
+        5,
+        5,
+        5,
+        2,
         4,
-        5,
-        5,
-        5,
-        5,
-        5,
         5
       ]
     },
@@ -40,140 +40,140 @@ var friends =
         5,
         5,
         5,
-        5,
+        3,
         1,
         2,
         5,
-        4,
-        1
+        1,
+        2
       ]
     },
     {
-      "name": "Ahmed",
-      "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+      "name": "John Wick",
+      "photo": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/keanu-reeves-john-wick-chapter-3-parabellum-1557912590.jpg?crop=0.545xw:1.00xh;0.149xw,0&resize=400:*",
       "scores": [
         5,
-        1,
-        4,
-        4,
-        5,
-        1,
         2,
-        5,
         4,
-        1
+        4,
+        5,
+        3,
+        1,
+        5,
+        3,
+        5
       ]
     },
     {
-      "name": "Ahmed",
-      "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+      "name": "Legolas",
+      "photo": "http://archery360.com/wp-content/uploads/2014/01/Legolas-Photo-Squidoo.jpg",
       "scores": [
         5,
-        1,
-        4,
-        4,
-        5,
-        1,
+        3,
         2,
         5,
-        4,
-        1
+        5,
+        5,
+        1,
+        5,
+        1,
+        5
       ]
     },
     {
-      "name": "Ahmed",
-      "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+      "name": "Rorschach",
+      "photo": "https://vignette.wikia.nocookie.net/marvel_dc/images/d/d9/Rorshach_0011.JPG/revision/latest?cb=20121120000300",
       "scores": [
         5,
         1,
-        4,
-        4,
-        5,
         1,
-        2,
+        4,
+        5,
+        3,
+        1,
         5,
         4,
-        1
+        5
       ]
     },
     {
-      "name": "Ahmed",
-      "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+      "name": "Batman",
+      "photo": "https://imgix-media.wbdndc.net/cms/filer_public_thumbnails/filer_public/22/75/2275b2f7-431d-49a9-b4b0-2d0c79e3e7e3/batman-profile-293d6d-bm_cv17_ns-1-v1-1500x2244-masthead.jpg__387x579_q85_crop_subsampling-2_upscale.jpg",
       "scores": [
         5,
-        1,
         4,
         4,
         5,
-        1,
+        5,
         2,
+        3,
         5,
-        4,
-        1
+        3,
+        4
       ]
     },
     {
-      "name": "Ahmed",
-      "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+      "name": "Goku",
+      "photo": "https://fsa.zobj.net/crop.php?r=Yhdazm2D39B_fjjWoLAB-ufW8yicVZtk6nI7LLRIAn451Ybqe80TQq23lRwVnht1vb2dMkNhv5hVwqi9iEiPahX3xvZR7oB49eNF9zW10LMdy4lugVRR5Ye_LiK4UbpqGgagEmhathRqCuhA",
       "scores": [
         5,
-        1,
-        4,
-        4,
+        5,
+        5,
+        5,
+        5,
         5,
         1,
-        2,
         5,
-        4,
-        1
+        1,
+        3
       ]
     },
     {
-      "name": "Ahmed",
-      "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+      "name": "Revan",
+      "photo": "https://fsa.zobj.net/crop.php?r=4enT_FqcyUddtTpYi2Lwf2Vw7cyUKiN-5MmB9f1LMSpGkrTTiW2NoN397MYtDqJoiFknCAWGUHbkMACVrQsC-xhYGFjSETB2DcMoeFT_M43fUr8W7AqvP8zQ1u7lwRbZT0l1wfVP6XSfn4fA",
       "scores": [
         5,
-        1,
+        3,
         4,
         4,
         5,
-        1,
         2,
+        1,
         5,
-        4,
-        1
+        2,
+        2
       ]
     },
     {
-      "name": "Ahmed",
-      "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+      "name": "Ezio Auditore da Firenze",
+      "photo": "https://vignette.wikia.nocookie.net/assassinscreed/images/6/66/ACI-Ezio.png/revision/latest?cb=20131014134656",
       "scores": [
         5,
-        1,
         4,
         4,
         5,
-        1,
+        5,
+        4,
         2,
         5,
-        4,
-        1
+        1,
+        4
       ]
     },
     {
-      "name": "Ahmed",
-      "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+      "name": "Gambit",
+      "photo": "https://i.pinimg.com/474x/1a/d4/2c/1ad42c1cffb41f8e4c1b8581b6ecc655.jpg",
       "scores": [
-        5,
+        3,
+        3,
+        4,
+        4,
+        3,
         1,
         4,
         4,
-        5,
-        1,
-        2,
-        5,
-        4,
-        1
+        3,
+        3
       ]
     },
   ];
